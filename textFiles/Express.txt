@@ -1,0 +1,19 @@
+------------------------------ BASIC EXPRESS JS -----------------------
+1. import the module express . 
+
+2. use that variable to use the express functions
+
+3.app.get('path' , (req , res)) --> gets the request likely to create server in node https module.
+
+4. app.listen(port , (err)=>{}) --> acts like node http listen.
+
+5. sendfFile('path of the file') --> sends the file to the request.
+
+6. ^/$|index.(html)? --> this regex check the get url and send the correct response 
+    ()? -- sends if the string is not present or notit sends the correct response
+
+7. redirect(statuscode , page location)
+
+8. status(code:number) --> tell teh status.
+
+9. next() [chaining the functions] --> its goes to the next operation when user request.

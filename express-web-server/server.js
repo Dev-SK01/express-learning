@@ -9,7 +9,7 @@ class Emitter extends EventEmitter { };
 // initialize object 
 const myEmitter = new Emitter();
 myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
-const PORT = process.env.PORT || 3501;
+const PORT = process.env.PORT || 3500;
 
 const serveFile = async (filePath, contentType, response) => {
     try {
@@ -96,4 +96,4 @@ const server = http.createServer((req, res) => {
         }
     }
 });
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, () => console.log(`Server running on port ${PORT} \n PID : ${process.pid}`));
