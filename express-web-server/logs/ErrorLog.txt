@@ -1,0 +1,5 @@
+20240329	11:57:04	c008a691-eb2a-401d-8046-5f8bff32a285	Error	Not Allowed By CORS !
+20240329	11:57:04	f6a065f6-bfe5-4cef-8ed1-f83c84e58acf	Error	Not Allowed By CORS !
+20240329	11:57:25	9139d55c-a03d-4ddf-bbac-6163fbc9b251	Error	Not Allowed By CORS !
+20240329	11:57:25	8b8780e2-317b-4de7-97f9-39017464cf82	Error	Not Allowed By CORS !
+20240329	12:01:28	a9bfee61-2fdf-4b59-9bdc-ad07d4284192	Error	Not Allowed By CORS !

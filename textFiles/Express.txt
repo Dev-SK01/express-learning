@@ -14,6 +14,6 @@
 
 7. redirect(statuscode , page location)
 
-8. status(code:number) --> tell teh status.
+8. status(code:number) --> givest the status.
 
 9. next() [chaining the functions] --> its goes to the next operation when user request.

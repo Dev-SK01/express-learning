@@ -1,0 +1,34 @@
+------------------------------- MIDDLEWARE --------------------------
+
+1. Middleware means in between request and response somthing is happen is middle ware.
+
+2. there are 3 Types of middle ware
+   1.Built-In MiddleWare
+   2.Custom MiddleWare
+   3.Third-Party Middleware.
+
+3. We need to write middleware before the routes are mentioned means get() method.
+
+------------------------    1.Built-In MiddleWare ------------------
+
+1.app.use(express.urlencoded({extended:false})) --> encode the url to handle form like response
+
+2.express.json() --> to handle the json data
+
+3. express.static() --> gives the access to the client to the files .that means static files. 
+   like css ,js ,img ,video.
+
+------------------------------ 2.Custom MiddleWare -----------------------
+1. app.use(create a custom middleware function)
+
+2. these function get three args request , response , next 
+
+3. you can use those function in app.use() method.
+
+4. when  we write middleware we need to consider that middleware function act synchronously.
+
+------------------------------ 2.Third Party Middleware -----------------------
+
+1. To implementing TPW we are using cors package 
+
+2. cross origin means it share the resources with the other site when it requests.

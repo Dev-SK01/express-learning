@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon web-server.js"
+    "dev": "nodemon middleware.js"
   },
   "author": "DevSK",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^2.23.0",
     "express": "^4.19.2",
     "nodemon": "^3.1.0",
