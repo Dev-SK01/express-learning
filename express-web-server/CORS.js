@@ -38,7 +38,9 @@ app.get('/*' , (req ,res ,next)=>{
 } , (req ,res)=>{
     res.status(404).sendFile(path.join(__dirname ,'views','404.html'))
 });
+// handles the error
 app.use(errorHandler);
+
 app.listen(PORT , (err)=>{
     if(err){
         console.error(err);

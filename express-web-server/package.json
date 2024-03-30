@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon middleware.js"
+    "dev": "nodemon router.js"
   },
   "author": "DevSK",
   "license": "ISC",

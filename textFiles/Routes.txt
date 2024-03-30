@@ -1,0 +1,21 @@
+--------------------------- Routes IN Express --------------------
+
+1. Express routes are the middleware for the web server application.
+
+2. It is Provides a Mini-App for your application.
+
+3. Routes are handling the  url path requests which means www.youapp.com/users
+   In this case the users is a anothor application. to handle those application routes are used.
+
+Syntax 
+
+const router = express.Router();
+
+router.get(path ,(req,res)=>{
+    res.sendFile('send html file');
+});
+module.exports = router ;
+in main server file
+
+const router = require('router.js')
+app.use('sub-folder' , router)
