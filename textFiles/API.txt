@@ -1,0 +1,32 @@
+--------------------------------- Designing API In Express JS --------------------
+
+1. API is interface for CRUD operation .  it provides access to create read update delete
+
+2. let's consider restarunt Workings.
+
+3. RESTful API is methodology getting the request from the url based on the url data 
+   the API us written.
+
+4. Reference : "https://www.postman.com/what-is-an-api/
+
+------------------------------ REST API --------------------
+
+1.It is method to create an api it works GET PUT POST PATCH DELETE
+
+2. Reference : https://www.mannhowie.com/rest-api
+
+3. Create the end point for the api in express routes.
+
+4 in express we use router and chaining is possible for the CRUD operations
+
+5. router.route('/') --> this path is mentioned in the app.use('path');
+     .get()
+     .put()
+     .post()
+     .delete() --> these are the api operation.
+
+6. Extension for creating the frontend request --> Rest Client 
+
+7. we need to create the file to use the rest client .rest xtention
+
+8. in that file we can write out requests

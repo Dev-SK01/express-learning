@@ -1,0 +1,19 @@
+GET http://localhost:2500/students
+
+###
+POST http://localhost:2500/students
+Content-Type : application/json
+
+{
+    "name" : "name"
+}
+###
+PUT http://localhost:2500/students
+Content-Type: application/json
+
+{
+    "name" : "name"
+}
+
+###
+DELETE http://localhost:2500/students
