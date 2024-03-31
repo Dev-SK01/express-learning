@@ -3,7 +3,7 @@ const express = require('express')
 const router = express.Router();
 const fs = require('fs').promises;
 
-const data = require('../../data/students.json');
+const data = require('../../model/students.json');
 // actual we design the api  connect to the database
 
 router.route('/')
@@ -13,7 +13,7 @@ router.route('/')
     })
     .post(async (req, res) => {
         let WholeData = [...data , req.body]
-        await fs.writeFile(path.join(__dirname , '..' ,'..', 'data' , 'students.json'), JSON.stringify(WholeData),(err)=>{
+        await fs.writeFile(path.join(__dirname , '..' ,'..', 'model' , 'students.json'), JSON.stringify(WholeData),(err)=>{
             if(err){
                 console.log(err)
             }

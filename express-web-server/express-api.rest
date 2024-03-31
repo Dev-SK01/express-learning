@@ -17,3 +17,14 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:2500/students
+
+###
+GET http://localhost:2500/mvc
+
+###
+POST http://localhost:2500/mvc
+Content-Type: application/json
+
+{
+    "name" : "name"
+}

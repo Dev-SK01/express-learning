@@ -1,0 +1,17 @@
+----------------------- MODEL VIEW CONTROLLER ----------------------
+
+1. It is a framework for handling the requests and responses.
+
+2. CONTROLLER controls the request form the client. If the request for data fetch the MODEL handle 
+    request from the client
+3.View Is Front edn of the application MODEL is Backend
+
+4. CONTROLLER controll the fronend and backend. it combines thos requests and sends the responses.
+
+------------------- MVC framework -------------------
+
+create a MODEL Views CONTROLLER folders put related files in those folders
+
+put related files in those folders
+
+export all functions and import into your views

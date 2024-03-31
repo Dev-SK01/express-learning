@@ -11,6 +11,7 @@ app.use('/',express.static(path.join(__dirname,'./public')));
 app.use('/subdir',express.static(path.join(__dirname,'./public')));
 // api endpoint | route
 app.use('/students' , require('./routes/api/students'));
+app.use('/mvc' , require('./mvc'));
 app.use('/subdir', require('./routes/subdir'));
 app.use('/' , require('./routes/root'));
 
